@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000127;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+
+.menu{
+    width: 100%;
+    /* height: 15%; */
+    background-color: #211C56;
+    color:#ececec;
+    display: inline-flex;
+    text-align: start;
+    padding-left: 50px;
+}
+
+#horoscopo{
+    margin-right: 10%;
+}
+
+.contenedor {
+    width: 100%;
+    /* height: 85%; */
+    background-color: #211C56;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    color: aliceblue;
+    margin: 0 10%;
+}
+
+.menu a {
+    width: 18%;
+    height: 100%;
+    text-decoration: none;
+    font-family: khand;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+    padding-top: 30px;
+}
+
+.menua{
+    margin-top: 7px;
+}
+
+.logoImg{
+    width: 40px;
+}
+
+.titulo{
+    width: 100%;
+    /* height: 15%; */
+    background-color: #6393ca;
+    color:#ececec;
+    /* display: inline-flex; */
+    /* text-align: start; */
+    /* margin-top: 10%; */
+    padding: 20px 100px;
+    /* padding-left: 50px; */
+    
+}
+
+.titulo a{
+    color: #ececec;
+    text-decoration: none;
+}
+
+.signos, .video{
+    padding: 20px 100px;
+    background-color: #1e2050;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: justify;
+    /* margin: 10px; */
+}
+
+.aries-titulo{
+    background-color: #6c70e7;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    text-align: center;
+}
+.Geminis-titulo{
+    background-color: #69e942;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.boton{
+    width: 50px;
+    height: 50px;
+    /* background-color: #69e942; */
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    border-radius: 10px;
+    
+}
+.boton a{
+    text-decoration: none;
+    color: #dd1637;
+    font-size: 40px;
+    font-weight: 700;
+    margin: auto;
+}
